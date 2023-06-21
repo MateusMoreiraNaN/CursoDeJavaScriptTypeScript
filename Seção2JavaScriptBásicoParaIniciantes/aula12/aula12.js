@@ -17,7 +17,7 @@ let string = 'O rato roeu a roupa do rei de roma'
 console.log(string.length);
 console.log(string.slice(2, 6));
 console.log(string.slice(-4));
-console.log(string.replace(/r/g, '#'));
+console.log(string.replace(/gfd/, '#'));
 
 console.log(string.toLocaleLowerCase());
 console.log(string.toUpperCase());
