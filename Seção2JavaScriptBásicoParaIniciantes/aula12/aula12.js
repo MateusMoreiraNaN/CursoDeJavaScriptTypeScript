@@ -3,12 +3,13 @@
 let umaString = 'Um texto'
 
 console.log(umaString)
+/*
 console.log(umaString.charAt(0));
 console.log(umaString.charAt(1));
 console.log(umaString.charAt(2));
 console.log(umaString.charAt(3));
 console.log(umaString.charAt(4));
-
+*/
 console.log(umaString.indexOf('o', 3));
 console.log(umaString.lastIndexOf('m'));
 
