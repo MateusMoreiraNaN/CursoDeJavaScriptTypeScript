@@ -10,12 +10,12 @@ console.log(data.toString());
 console.log(data.getDate());
 
 const formData=(data2)=> {
-    const dia = data.getDate()
-    const mes = data.getMonth() + 1
-    const ano = data.getFullYear()
-    const hora = data.getHours()
-    const min = data.getMinutes()
-    const seg = data.getSeconds()
+    const dia = data2.getDate()
+    const mes = data2.getMonth() + 1
+    const ano = data2.getFullYear()
+    const hora = data2.getHours()
+    const min = data2.getMinutes()
+    const seg = data2.getSeconds()
 
     return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`
 }
